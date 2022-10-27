@@ -1,4 +1,4 @@
 <launch>
-  <arg name="ns" default="robot0">
+  <arg name="ns" default="robot0" />
   <node name="r1" pkg="lab_4_robot" type="driver" ns="$(arg ns)" output="screen" />
 </launch>
